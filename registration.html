@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/x-icon" href="https://scontent.fmnl3-3.fna.fbcdn.net/v/t1.15752-9/423541942_3710732649159335_2522965250655212257_n.png?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFJNEp45_r_yWRvPUT8xgZ11Y30OfuUNXTVjfQ5-5Q1dCBlcLt6CJHt50ZPTDfs4fgR5O3fWxt5FLtpT8y-z7c-&_nc_ohc=-gq3tzol8XwAX_tGHrA&_nc_ht=scontent.fmnl3-3.fna&oh=03_AdQqKiiCjPkzt_SokXKKxCvTOW34q6KAYQ0X4Edi_SbxBw&oe=661257D5" />
+<title>Registration</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('https://scontent-hkg1-1.xx.fbcdn.net/v/t1.15752-9/429457685_1554121972096261_5784028276425931991_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE9PlyoE3fbsGBKgklkgi1JNlFeSqs8I9g2UV5Kqzwj2I-FWgAdS4iHBsGGjCYIIsQur5p0GbNBVuRkLQqBFThn&_nc_ohc=QiOSrfcXZPsAX8pK02O&_nc_ht=scontent-hkg1-1.xx&oh=03_AdRt94rnfKnkEvykY4qM5R294bHBvbSZckKq1Lo3jaPnTg&oe=6631988D');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        text-align: center;
+    }
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        background-color: #C4AFB2;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2 style="font-family: verdana; font-size: 130%; font-weight: normal; color: #443E6D; text-align: center;">Register</h2>
+    <form action="#" method="post" id="registerForm" style="font-family: verdana; font-size: 200%; font-weight: normal; color: #443E6D; text-align: center;" >
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="submit" value="Register" style="font-size: 50%;">
+    </form>
+    <p style="font-family: verdana; font-size: 100%; font-weight: normal; color: #443E6D; text-align: center;">Already have an account? <a href="login.html">Login here</a></p>
+</div>
+</body>
+</html>
