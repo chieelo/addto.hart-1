@@ -16,57 +16,57 @@ closeShopping.addEventListener('click', ()=>{
 let products = [
     {
         id: 1,
-        name: 'PRODUCT NAME 1',
+        name: 'Pearly Toploader',
         image:'product1.jpg',
-        price: 120000
+        price: 50
     },
     {
         id: 2,
-        name: 'PRODUCT NAME 2',
+        name: 'Lolita Toploader',
         image: 'product2.jpg',
-        price: 120000
+        price: 45
     },
     {
         id: 3,
-        name: 'PRODUCT NAME 3',
+        name: 'BlacknPink Toploader',
         image: 'product3.jpg',
-        price: 220000
+        price: 45
     },
     {
         id: 4,
-        name: 'PRODUCT NAME 4',
-        image: 'product7.jpg',
-        price: 123000
+        name: 'Yellow Toploader',
+        image: 'product5.jpg',
+        price: 60
     },
     {
         id: 5,
-        name: 'PRODUCT NAME 5',
-        image: 'product7.jpg',
-        price: 320000
+        name: 'Resin Binder',
+        image: 'product4.jpg',
+        price: 320
     },
     {
         id: 6,
-        name: 'PRODUCT NAME 6',
-        image: 'product8.jpg',
-        price: 120000
+        name: 'Pink Petal Binder',
+        image: 'product6.jpg',
+        price: 250
     },
     {
         id: 7,
-        name: 'PRODUCT NAME 6',
-        image: 'product8.jpg',
-        price: 120000
+        name: 'Sunshine Binder',
+        image: 'product7.jpg',
+        price: 250
     },
     {
         id: 8,
-        name: 'PRODUCT NAME 6',
+        name: 'Sunset Binder',
         image: 'product8.jpg',
-        price: 120000
+        price: 400
     },
     {
         id: 9,
-        name: 'PRODUCT NAME 6',
-        image: 'product8.jpg',
-        price: 120000
+        name: 'Victorian Frame charm',
+        image: 'product11.jpg',
+        price: 120
     }
 ];
 let listCards  = [];
